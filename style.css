@@ -11,7 +11,7 @@
 
 :root{
     --background-color: #080808;
-    --second background-color: #131313;
+    --second-background-color: #131313;
     --text-color: white;
     --main-color: #00ffee;
 }
@@ -597,7 +597,7 @@ span{
 .footer .social a:hover{
     transform: scale(1.2) translateY(-10px);
     background-color: var(--main-color);
-    color: black
+    color: black;
     box-shadow: 0 0 25px var(--main-color);
 }
 
@@ -679,7 +679,7 @@ span{
 }
 
 @media(max-width:895px){
-    #menuicon{
+    #menu-icon{
         display: block;
     }
     .navbar{
